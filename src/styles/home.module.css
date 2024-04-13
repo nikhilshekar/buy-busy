@@ -1,0 +1,96 @@
+.searchDiv {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+.searchInput {
+  width: 500px;
+  background: #555;
+  border: none;
+  outline: none;
+  padding: 20px 10px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1em;
+  margin-bottom: 1rem;
+}
+
+.filterContainer {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  position: fixed;
+  height: 35vh;
+  background: #444;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 4px;
+  margin-left: 20px;
+  margin-top: 10%;
+}
+
+.filterHeading {
+  text-align: center;
+  color: #0f0;
+}
+
+.category {
+  margin-top: 20px;
+}
+
+.mainContent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardImage {
+  height: 250px;
+  background-size: 80px;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 20%;
+}
+
+.card {
+  width: 20rem;
+  margin: 1.2rem;
+  height: 20rem;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 9);
+}
+
+.cardBody {
+  color: black !important;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.minus {
+  background-image: url(../assets/minus.png);
+  width: 18px;
+  height: 18px;
+  background-size: 18px;
+  display: inline-block;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.plus {
+  background-image: url(../assets/plus.png);
+  width: 18px;
+  height: 18px;
+  background-size: 18px;
+  display: inline-block;
+  margin: 0px 10px;
+  cursor: pointer;
+}
